@@ -26,7 +26,7 @@ npm install
 npm start
 ```
 
-Or yarn:
+Or using yarn:
 
 ```
 yarn install
