@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Toolbar from './components/toolbar/Toolbar';
 import SideDrawer from './components/sidedrawer/SideDrawer';
 import Backdrop from './components/backdrop/Backdrop';
+import Section from './components/section/Section';
 
 function App() {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
@@ -26,26 +27,25 @@ function App() {
       <SideDrawer show={sideDrawerOpen} close={backdropClickHandler} />
       {backdrop}
       <main className="pages-container" style={{ marginTop: '56px' }}>
-        <section
+        <Section
           id="section-1"
-          style={{ width: '100%', height: '100vh', backgroundColor: '#B3B1C4', textAlign: 'center', lineHeight: "100vh"}}>
-          <h1>Section 1</h1>
-        </section>
-        <section
+          backgroundColor="#B3B1C4"
+          title="Section 1" />
+
+        <Section
           id="section-2"
-          style={{ width: '100%', height: '100vh', backgroundColor: '#C4C2B1', textAlign: 'center', lineHeight: "100vh" }}>
-          <h1>Section 2</h1>
-        </section>
-        <section
+          backgroundColor="#C4C2B1"
+          title="Section 2" />
+
+        <Section
           id="section-3"
-          style={{ width: '100%', height: '100vh', backgroundColor: '#917481', textAlign: 'center', lineHeight: "100vh" }}>
-          <h1>Section 3</h1>
-        </section>
-        <section
+          backgroundColor="#917481"
+          title="Section 3" />
+
+        <Section
           id="section-4"
-          style={{ width: '100%', height: '100vh', backgroundColor: '#A5C8CE', textAlign: 'center', lineHeight: "100vh" }}>
-          <h1>Section 4</h1>
-        </section>
+          backgroundColor="#A5C8CE"
+          title="Section 4" />
       </main>
     </div>
   );
