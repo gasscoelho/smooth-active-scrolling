@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+/* Smooth scrolling with CSS. */
+/* html {
+    scroll-behavior: smooth; 
+} */
+
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    font: 16px 'Roboto', sans-serif;
+    background: #F7F8F8;
+    -webkit-font-smoothin: antialiased !important;
+}
