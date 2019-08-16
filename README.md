@@ -2,26 +2,39 @@
 
 The goal of this project is to present the features of smooth and active scrolling.
 
-## Getting Started
+## Demo
 
-This project use an external package, so make sure that you have installed all the required dependecies before running the app.
+![](https://media.giphy.com/media/U5UfcVW6vXasdAA6f2/giphy.gif)
 
-### Installation
+## To Run
+
+### Cloning the repository
+
+```
+git clone https://github.com/gasscoelho/smooth-active-scrolling.git
+```
+
+### Installing the dependencies
 
 Using npm:
 
 ```
-npm install react-anchor-link-smooth-scroll
+npm install
 ```
 
-or yarn:
+```
+npm start
+```
+
+Or yarn:
 
 ```
-yarn add react-anchor-link-smooth-scroll
+yarn install
 ```
-## Demo
 
-![](https://media.giphy.com/media/U5UfcVW6vXasdAA6f2/giphy.gif)
+```
+yarn start
+```
 
 ## Additional Packages
 
