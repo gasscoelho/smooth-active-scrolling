@@ -6,44 +6,37 @@ The goal of this project is to present the features of smooth and active scrolli
 
 ![](https://media.giphy.com/media/U5UfcVW6vXasdAA6f2/giphy.gif)
 
-## Additional Packages
+## Get Started
 
-* [React Anchor Link Smooth Scroll](https://www.npmjs.com/package/react-anchor-link-smooth-scroll)
+Follow the steps below to properly run this application.
 
-## Built With
+#### Clone the repository:
 
-* [ReactJS](https://reactjs.org/)
-
-## To Run
-
-### Cloning the repository
-
-```
+```bash
 git clone https://github.com/gasscoelho/smooth-active-scrolling.git
 ```
 
-### Installing the dependencies
-
-Using npm:
-
-```
-npm install
+```bash
+cd smooth-active-scrolling
 ```
 
-```
-npm start
-```
+#### Start the application:
 
-Or using yarn:
-
-```
+```bash
 yarn install
 ```
 
-```
+```bash
 yarn start
 ```
 
-## Authors
+*You can also use NPM instead of YARN to install the dependencies and start the application.*
 
-* **Gabriel Coelho** - *Full Stack Developer*
+## Built With
+
+✨ ReactJS <br />
+✨ React Anchor Link Smooth Scroll <br />
+
+## Author
+
+**[Gabriel Coelho](https://gasscoelho.me/en)** - Software Engineer
